@@ -1,0 +1,1 @@
+WebMvcConfigurer를 구현한 클래스에서 addCorsMappings 메소드를 오버라이드 하여 CORS 설정을 할 수 있습니다.
