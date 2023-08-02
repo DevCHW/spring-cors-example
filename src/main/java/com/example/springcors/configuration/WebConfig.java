@@ -9,18 +9,9 @@ public class WebConfig implements WebMvcConfigurer {
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-        /**
-         * addMapping() default 값
-         *
-         */
-
         registry.addMapping("/**")
                 .allowedOrigins("http://localhost:8080")
                 .allowedMethods("GET", "POST")
                 .maxAge(3000);
-
-        /**
-         *
-         */
     }
 }
